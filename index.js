@@ -1,7 +1,7 @@
 var App = function App() {
   return React.createElement(
     "div",
-    { className: "text-center" },
+    { className: "flex flex-col items-center justify-center h-[100vh]" },
     React.createElement(
       "h1",
       { className: "text-xl font-bold text-red-600" },
