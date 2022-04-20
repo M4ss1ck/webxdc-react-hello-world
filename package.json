@@ -6,7 +6,7 @@
   "scripts": {
     "babel": "pnpx babel --watch src --out-dir . --presets react-app/prod",
     "tailwind": "pnpx tailwindcss -i ./src/input.css -o ./style.css --watch",
-    "dev": "concurrently \"pnpm babel\" \"pnpm tailwind\""
+    "dev": "concurrently --prefix \"[{command}]\" --prefixLength 16 \"pnpm babel\" \"pnpm tailwind\""
   },
   "keywords": [],
   "author": "M4ss1ck",
