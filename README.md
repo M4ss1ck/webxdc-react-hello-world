@@ -2,7 +2,13 @@
 
 This is a template for creating webxdc apps using react and Tailwind CSS.
 
-## How to
+## Features
+
+1. React
+2. Tailwind CSS
+3. Vite
+
+## Development
 
     1. Clone the repository
     2. Run `pnpm i`
@@ -10,14 +16,16 @@ This is a template for creating webxdc apps using react and Tailwind CSS.
 
 `index.html` is the main file for your app. There we have `<div id="react-code" class="..."></div>` where we will render our react app.
 
-`src/index.jsx` is where we have our react code. Using `babel` our output will be `index.js`
+`src/index.jsx` is where we have our react code
 
-`src/input.css` is the main CSS file that tailwind will minimify and combine into `style.css`
+`src/input.css` is the main CSS file
 
-In `manifest.toml` change `name` to your app name
+In `manifest.toml` change `name` to your app name (the other keys are optional for simplebot)
 
 Change `icon.png` to your app icon
 
-Run `create-xdc.sh` to create your xdc file (unless you are a Windows user like me, then F, you'll have to manually create a zip with all files and rename the extension to `.xdc`)
+In `.jsziprc.json` is the configuration for how to build your app.
 
-After all this, just drop `your_cool_app.xdc` into any chat and you should be able to use it.
+# Build
+
+Run `pnpm build`, then just drop `your_cool_app.xdc` into any chat and you should be able to use it.
