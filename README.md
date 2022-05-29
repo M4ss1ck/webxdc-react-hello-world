@@ -4,9 +4,10 @@ This is a template for creating webxdc apps using react and Tailwind CSS.
 
 ## Features
 
-1. React
-2. Tailwind CSS
-3. Vite
+1. TypeScript
+2. React
+3. Tailwind CSS
+4. Vite
 
 ## Development
 
@@ -16,7 +17,7 @@ This is a template for creating webxdc apps using react and Tailwind CSS.
 
 `index.html` is the main file for your app. There we have `<div id="react-code" class="..."></div>` where we will render our react app.
 
-`src/index.jsx` is where we have our react code
+`src/index.tsx` is where we have our react code
 
 `src/input.css` is the main CSS file
 
